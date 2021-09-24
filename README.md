@@ -7,7 +7,7 @@ projeto criado para construção de um formulário de inscrição completo com v
 
 ## ✨ Demonstração    
 Veja abaixo um gif do projeto.</br>
-[![image from giphy](https://i.giphy.com/media/eY25elhVyArLeR8dby/giphy.mp4)](https://media.giphy.com/media/eY25elhVyArLeR8dby/giphy.gif?cid=790b7611a6bb3fa0438f80d3fa2f668e9b88cf45b8caf0d2&rid=giphy.gif&ct=g)
+[![image from giphy](https://i.giphy.com/media/eY25elhVyArLeR8dby/giphy.webp)](https://media.giphy.com/media/eY25elhVyArLeR8dby/giphy.gif?cid=790b7611a6bb3fa0438f80d3fa2f668e9b88cf45b8caf0d2&rid=giphy.gif&ct=g)
 
 ## 🎯 Objetivo do projeto
 Este projeto é uma solução para o desafio do [Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). 
