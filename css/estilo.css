@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    background-color: hsl(0, 100%, 74%);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(../img/bg-intro-mobile.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1 {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1-titulos {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.box1-cabeçalho {
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.box1-paragrafo {
+    font-size: 1rem;
+    color: white;
+}
+
+.box2-caixa {
+    background-color: hsl(248, 32%, 49%);
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: whitesmoke;
+    border-radius: .5rem;
+    box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.26);
+}
+
+.box2 {
+    width: 100%;
+    height: 80%;
+}
+
+.formulario {
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    border-radius: .5rem;
+    box-shadow: 0px 6px 0px 0px rgba(0, 0, 0, 0.26);
+}
+
+input,
+button {
+    padding: 1.2rem;
+    width: 79%;
+    margin-top: 1rem;
+    border-radius: .5rem;
+}
+
+input {
+    outline: none;
+    border: 1px solid rgb(214, 214, 214);
+    font-size: 1rem;
+}
+
+button {
+    width: 89%;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(154, 59%, 51%);
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1rem;
+    outline: none;
+    box-shadow: 0px 5px 0px 0px hsl(154, 60%, 52%);
+}
+
+button:hover {
+    background-color: hsl(154, 75%, 57%);
+}
+
+button:active {
+    box-shadow: 0px 0px 0px 0px hsl(154, 60%, 52%);
+    border: 1px solid hsl(154, 60%, 52%);
+}
+
+.rodape {
+    font-size: .7rem;
+    width: 15rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+    color: rgb(194, 194, 194);
+    text-align: center;
+}
+
+.rodape strong {
+    color: rgb(255, 30, 30);
+}
+
+#erro1,
+#erro2,
+#erro3,
+#erro4 {
+    color: red;
+    font-size: .9rem;
+    width: 85%;
+    text-align: right;
+    margin-bottom: -1rem;
+    display: none;
+}
+
+.alert {
+    background-image: url(../img/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 95%;
+    border: 1px solid rgb(255, 31, 31);
+}
+
+::placeholder {
+    font-weight: bold;
+}
+
+.alert::placeholder {
+    font-weight: bold;
+    color: red;
+}
+
+@media(min-width:600px) {
+    .container {
+        flex-wrap: nowrap;
+        background-image: url(../img/bg-intro-desktop.png);
+    }
+    .box1 {
+        height: 28rem;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .box1-titulos {
+        text-align: left;
+        margin-left: 6rem;
+    }
+    .box1-cabeçalho {
+        font-size: 3rem;
+    }
+    .box1-paragrafo {
+        font-size: 1.1rem;
+    }
+    .box2-caixa {
+        margin-top: 5rem;
+        width: 80%;
+        height: 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .formulario {
+        width: 80%;
+    }
+}
